@@ -1,0 +1,5 @@
+package testing;
+
+public interface PaymentMethod {
+    boolean processPayment(double amount);
+}
